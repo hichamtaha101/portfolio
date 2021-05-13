@@ -76,6 +76,7 @@ export default {
 		}
 
 		.logo {
+			a { color: $main_color; }
 			text-transform: uppercase;
 			font-size: 16px;
 			font-family: $font_header;
@@ -87,10 +88,10 @@ export default {
 			& > div {
 				margin: 0 5px;
 				a {
+					color: $main_color;
 					text-transform: uppercase;
 					font-size: 10px;
 					@include underline-before-hover();
-
 					&:hover,
 					&:visited {
 						background-color: white;

@@ -25,7 +25,7 @@
 		</div>
 		<div class="contact-method">
 			<a
-			href="mailto:hichamtaha1@hotmail.com"
+			href="mailto:hichamtaha101@gmail.com"
 			target="_blank"
 			><i
 			class="fa fa-envelope"

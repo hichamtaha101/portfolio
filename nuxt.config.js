@@ -22,6 +22,7 @@ export default {
         { type: 'text/javascript', src: 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js' },
 	]
   },
+  target: 'static',
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
