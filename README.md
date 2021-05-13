@@ -1,4 +1,4 @@
-# hicham-taha-nuxt
+# hicham-taha
 
 ## Build Setup
 
