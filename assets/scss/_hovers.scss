@@ -1,0 +1,111 @@
+@mixin underline-before-hover($padding: -3px){
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  overflow: hidden;
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: $padding;
+    background: $secondary_color_1;
+    height: 1px;
+    transition: 0.2s all;
+  }
+  &:hover{
+    &:before{
+      left: $padding;
+      right: $padding;
+    }
+  }
+}
+
+@mixin left-to-right-hover(){
+  transform: perspective(1px) translateZ(0);
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $main_color;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    transition: all 0.2s;
+  }
+  &:hover{
+    &:before{
+      transform: scaleX(1);
+    }
+  }
+}
+
+@mixin bottom-to-top-hover(){
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  vertical-align: middle;
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $main_color;
+    transform: scaleY(0);
+    transform-origin: 50% 100%;
+    transition-property: transform;
+    transition: all 0.2s;
+  }
+  &:hover{
+    color: white;
+    &:before{
+      transform: scaleY(1);
+    }
+  }
+}
+
+@mixin outwards-hover(){
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    &:before{
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #0c0c0c;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 50%;
+      transform-origin: 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    &:hover{
+        color: white;
+      &:before{
+        transform: scaleX(1);
+      }
+    }
+}
