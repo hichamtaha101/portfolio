@@ -4,8 +4,8 @@
       :class="icon"
       class="colored"
     />
-    <div class="profile-section__title--sm">{{ title }}</div>
-    <div class="profile-section__title--sm"><i
+    <div class="text-sm">{{ title }}</div>
+    <div class="text-sm"><i
       v-for="n in stars"
       :key="n"
       class="fa fa-star"

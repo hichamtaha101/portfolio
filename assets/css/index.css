@@ -1,0 +1,65 @@
+@import "./variables.css";
+
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-0), var(--font-1), var(--font-2), var(--font-3),
+		var(--font-4);
+	color: var(--main-color);
+	padding: 0 !important;
+}
+
+a {
+	color: var(--main-color);
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: var(--font-header), var(--font-0), var(--font-1), var(--font-2),
+		var(--font-3), var(--font-4);
+	font-weight: bold;
+}
+.profile-section {
+	padding: 15px;
+	&__title {
+		text-align: center;
+		font-size: 32px;
+		text-transform: uppercase;
+		padding-top: 80px;
+		&--sm {
+			text-align: center;
+			display: block;
+			font-size: 14px;
+			text-transform: none;
+			padding-bottom: 30px;
+		}
+	}
+}
+
+.wrapper {
+	max-width: 1360px;
+	padding: 0px 15px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.fail {
+	color: rgb(255, 59, 59);
+}
+
+.v-dialog {
+	max-width: 1360px !important;
+}

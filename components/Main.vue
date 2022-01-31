@@ -10,30 +10,24 @@
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        <div class="h1">
+        <div class="text-2xl font-bold">
           Hello,
         </div>
-        <p>I am a full stack developer with experience in content management, inventory management, digital marketing and cryptocurrency technology. I am well versed in many modern web based frameworks, and am currently pursuing Vue, Nuxt, Mongo, Node and AWS development.</p>
-        <p>Currently, I am employed as a full stack developer for Vancouver Bitcoin. I've also attained my Bachelors in Information Technology at Kwantlen Polytechnic University specializing in Web and Mobile Application Development.</p>
+        <p>I am a full-stack developer with experience in content management, inventory management, digital marketing, and cryptocurrency services. I am well versed in many modern web based frameworks, and am currently pursuing Vue, Nuxt, MongoDB, Node and AWS development. I am currently employed as a freelance developer for <a href="https://henesysgroup.com/" target="_blank">Henesys Group</a>.</p>
+        <p>Additionally, I graduated with a Bachelors in Information Technology at Kwantlen Polytechnic University, specializing in Web and Mobile Application Development.</p>
         <p>I've got a keen interest for upcoming innovations and am constantly researching new technologies to improve my development skill set.</p>
         <div class="body-social-icons">
-          <a
-            href="https://www.facebook.com/HichamATaha"
-            target="_blank"
-          ><i
-            class="fa fa-facebook"
-          /></a>
-          <a
-            href="https://plus.google.com/u/0/115767603506886933291"
-            target="_blank"
-          ><i
-            class="fa fa-google-plus"
-          /></a>
           <a
             href="https://ca.linkedin.com/in/hichamakirataha"
             target="_blank"
           ><i
             class="fa fa-linkedin"
+          /></a>
+		  <a
+            href="https://plus.google.com/u/0/115767603506886933291"
+            target="_blank"
+          ><i
+            class="fa fa-google-plus"
           /></a>
           <a href="mailto:hichamtaha101@gmail.com"><i class="fa fa-envelope" /></a>
         </div>
@@ -43,9 +37,9 @@
 </template>
 
 
-<style lang="scss">
+<style lang="postcss">
 .body-slider {
-	height: calc(80vh);
+	height: calc(75vh);
 	background: url("~assets/images/background.jpg");
 	background-size: cover;
 	background-position: center bottom;
@@ -54,14 +48,9 @@
 }
 
 .body-introduction {
+	@add-mixin vertical-align absolute;
 	text-align: left;
-	@include vertical-align(absolute);
 	top: 25%;
-
-	.h1 {
-		margin: 0;
-		font-size: 46px;
-	}
 
 	p {
 		margin-top: 10px;
@@ -72,7 +61,7 @@
 		padding-top: 10px;
 
 		a {
-			color: $main_color;
+			color: var(--main-color);
 			font-size: 20px;
 			padding: 10px 11px;
 			margin-right: 5px;
@@ -85,7 +74,7 @@
 				box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
 			}
 
-			@include left-to-right-hover();
+			@add-mixin left-to-right-hover;
 		}
 
 		a:first-child {

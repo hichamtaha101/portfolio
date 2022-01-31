@@ -1,4 +1,4 @@
-@mixin underline-before-hover($padding: -3px) {
+@define-mixin underline-before-hover $padding: -3px {
 	transform: perspective(1px) translateZ(0);
 	position: relative;
 	overflow: hidden;
@@ -8,20 +8,20 @@
 		z-index: -1;
 		left: 50%;
 		right: 50%;
-		bottom: $padding;
-		background: $secondary_color_1;
+		bottom: $(padding);
+		background: var(--secondary-color-1);
 		height: 1px;
 		transition: 0.2s all;
 	}
 	&:hover {
 		&:before {
-			left: $padding;
-			right: $padding;
+			left: $(padding);
+			right: $(padding);
 		}
 	}
 }
 
-@mixin left-to-right-hover() {
+@define-mixin left-to-right-hover {
 	transform: perspective(1px) translateZ(0);
 	&:before {
 		content: "";
@@ -31,7 +31,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: $main_color;
+		background: var(--main-color);
 		-webkit-transform: scaleX(0);
 		transform: scaleX(0);
 		-webkit-transform-origin: 0 50%;
@@ -45,7 +45,7 @@
 	}
 }
 
-@mixin bottom-to-top-hover() {
+@define-mixin bottom-to-top-hover {
 	transform: perspective(1px) translateZ(0);
 	position: relative;
 	vertical-align: middle;
@@ -57,7 +57,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: $main_color;
+		background: var(--main-color);
 		transform: scaleY(0);
 		transform-origin: 50% 100%;
 		transition-property: transform;
@@ -71,7 +71,7 @@
 	}
 }
 
-@mixin outwards-hover() {
+@define-mixin outwards-hover {
 	display: inline-block;
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
