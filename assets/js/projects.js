@@ -47,7 +47,7 @@ module.exports = [
 			},
 			{
 				image: "bittreo/new/customer-management.png",
-				html: "The platform's UI utilizes <a href=\"https://vuetifyjs.com/en/\" target=\"_blank\">Vuetify</a> components library working heavily with <a href=\"https://vuetifyjs.com/en/components/data-tables\" target=\"_blank\" tabindex=\"0\"> data tables</a>."
+				html: "The platform's UI utilizes the <a href=\"https://vuetifyjs.com/en/\" target=\"_blank\">Vuetify</a> components library working heavily with <a href=\"https://vuetifyjs.com/en/components/data-tables\" target=\"_blank\" tabindex=\"0\"> data tables</a>."
 			},
 			{
 				image: "bittreo/new/customer-profile.png",
@@ -62,7 +62,7 @@ module.exports = [
 	{
 		id: "erp",
 		title: "Enterprise Resource Planning",
-		timeline: "Dec, 2019 - Present",
+		timeline: "Jan, 2019 - Present",
 		description: "Private ERP for a Wholesaler.",
 		slides: [
 			{
