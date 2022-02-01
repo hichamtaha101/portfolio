@@ -2,11 +2,11 @@
 
 The following document describes the steps necessary to get the Nuxt website up and running.
 
-### What is this repository for?
+### What is this Repository for?
 
-This repository holds the codebase for https://www.hichamtaha.com/.
+This repository holds the codebase for https://www.hichamtaha.com.
 
-### How to setup / scripts
+### How to Setup / Scripts
 -   `yarn dev` Serve with hot reload at localhost:3000.
 -   `yarn build` Build for production.
 -   `yarn start` Launch server.

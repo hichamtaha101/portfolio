@@ -16,7 +16,7 @@
         <p>I am a full-stack developer with experience in content management, inventory management, digital marketing, and cryptocurrency services. I am well versed in many modern web based frameworks, and am currently pursuing Vue, Nuxt, MongoDB, Node and AWS development. I am currently employed as a freelance developer for <a href="https://henesysgroup.com/" target="_blank">Henesys Group</a>.</p>
         <p>Additionally, I graduated with a Bachelors in Information Technology at Kwantlen Polytechnic University, specializing in Web and Mobile Application Development.</p>
         <p>I've got a keen interest for upcoming innovations and am constantly researching new technologies to improve my development skill set.</p>
-        <div class="body-social-icons">
+        <div class="body-social-icons pt-3 flex flex-wrap gap-2">
           <a
             href="https://ca.linkedin.com/in/hichamakirataha"
             target="_blank"
@@ -24,10 +24,10 @@
             class="fa fa-linkedin"
           /></a>
 		  <a
-            href="https://plus.google.com/u/0/115767603506886933291"
+            href="https://github.com/hichamtaha101"
             target="_blank"
           ><i
-            class="fa fa-google-plus"
+            class="fa fa-github"
           /></a>
           <a href="mailto:hichamtaha101@gmail.com"><i class="fa fa-envelope" /></a>
         </div>
@@ -58,17 +58,15 @@
 	}
 
 	.body-social-icons {
-		padding-top: 10px;
-
 		a {
 			color: var(--main-color);
 			font-size: 20px;
-			padding: 10px 11px;
-			margin-right: 5px;
-			position: relative;
 			transition: all 0.2s;
-			display: inline-block;
-
+			width: 45px;
+			height: 45px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			&:hover {
 				color: white;
 				box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);

@@ -11,6 +11,7 @@
           :show-arrows="true"
           hide-delimiters
           height="100%"
+		  v-model="currentIndex"
         >
           <v-carousel-item
             v-for="(slide, i) in projects[activeProject].slides"
@@ -20,8 +21,11 @@
               <div class="carousel__item__slider">
                 <img :src="imglink(slide.image)">
               </div>
-			  <div class="carousel__item__content flex justify-center items-center text-center">
+			  <div class="carousel__item__content">
+				<div class="text-sm font-bold pb-2 text-center">Page {{ currentIndex + 1 }} of {{ projects[activeProject].slides.length }}</div>
+				<div class="flex justify-center items-center text-center">
               	<div v-html="slide.html" />
+				</div>
 			  </div>
             </div>
           </v-carousel-item>
@@ -49,7 +53,7 @@
 				:id="value.id"
 				class="duration-200 h-64 p-4 cursor-pointer flex flex-col justify-center shadow-md"
 				style="background-color: #fdfdfd"
-				@click="modal = !modal; activeProject = index"
+				@click="modal = !modal; currentIndex = 0; activeProject = index;"
 			>
 				<div class="text-xl">{{ value.title }}</div>
 				<div class="text-xs pb-4">{{ value.timeline }}</div>
@@ -71,6 +75,7 @@ export default {
 			modal: false,
 			view: false,
 			activeProject: 0,
+			currentIndex: 0,
 			projects,
 		};
 	},
@@ -121,8 +126,9 @@ export default {
 	&__item {
 		&__slider {
 			overflow-y: auto;
-			max-height: 550px;
+			height: 550px;
 			background-color: white;
+			@media screen and (max-width: 1080px) { height: auto; }
 			img {
 				display: block;
 				border-radius: 3px;
@@ -131,7 +137,7 @@ export default {
 			}
 		}
 		&__content {
-			min-height: 125px;
+			min-height: 130px;
 			border-top: 1px solid #e9e9e9;
 			background: white;
 			padding: 15px;
