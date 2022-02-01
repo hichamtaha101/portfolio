@@ -18,7 +18,7 @@ phases:
         commands:
             - echo "post build phase test"
 artifacts:
-    baseDirectory: dist
+    base-directory: "dist"
     files:
         - "**/*"
     name: BuildArtifact
