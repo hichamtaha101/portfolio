@@ -17,33 +17,35 @@ This repository holds the codebase for https://www.hichamtaha.com/.
 1. In visual studio code, ensure you have the following plugins.
     - stylelint
     - ESLint
-    - Prettier - Code Formatter
+    - Prettier
+    - Tailwind CSS IntelliSense
+    - Vetur
 2. Settings are located in .vscode/settings.json. Linting is based off airbnb-base plugin.
 
 ### Directory Layout
 ```bash
-├── .vscode/								# Prettier setting with linting for front-end/back-end.
-├── assets/									# All assets relating to the project.
-	├── css									# Global postcss styles. 
-		├── mixins							# Global postcss mixins.
-	├── images								# Website and project images.
-	├── js									# Exportable JSON via JS files.
-	├── scss								# SCSS files, this was before postcss implemented.
-├── components/								# Global components to be used across all page components.
-├── dist/									# Distributed client side files to serve for static hosting.
-├── layouts/								# Page layouts, like admin, dashboard, login, etc.
-├── middleware/								# Authentication middleware, if any.
-├── node_modules/							# NPM packages.
-├── pages/									# Nuxt page based components.
-├── plugins/								# Third party plugins for Nuxt/Vue app.
-├── static/									# Static files to be accessed via public routes.
-├── store/									# Vuex for state global management.
-├── scripts/								# Shell scripts.
-├── pipeline/								# Pipeline scripts for Code Build to deploy to S3.
-├── .gitignore								# Files to ignore in bitbucket.
-├── .prettierignore							# Files to ignore prettier triggers from.
-├── .prettierrc								# Rules used in tandem with auto lint to ensure prettier tabs when developing.
-├── nuxt.config.js							# Nuxt configurations.
-├── package.json							# Core dependencies, scripts, and project details.
-├── postcss.webpack.config.js				# Postcss configurations.
-├── tailwind.config.js						# Tailwind configurations.
+├── .vscode/                    # Prettier setting with linting for front-end/back-end.
+├── assets/                     # All assets relating to the project.
+    ├── css                     # Global postcss styles. 
+        ├── mixins              # Global postcss mixins.
+    ├── images                  # Website and project images.
+    ├── js                      # Exportable JSON via JS files.
+    ├── scss                    # SCSS files, this was before postcss implemented.
+├── components/                 # Global components to be used across all page components.
+├── dist/                       # Distributed client side files to serve for static hosting.
+├── layouts/                    # Page layouts, like admin, dashboard, login, etc.
+├── middleware/                 # Authentication middleware, if any.
+├── node_modules/               # NPM packages.
+├── pages/                      # Nuxt page based components.
+├── plugins/                    # Third party plugins for Nuxt/Vue app.
+├── static/                     # Static files to be accessed via public routes.
+├── store/                      # Vuex for state global management.
+├── scripts/                    # Shell scripts.
+├── pipeline/                   # Pipeline scripts for Code Build to deploy to S3.
+├── .gitignore                  # Files to ignore in bitbucket.
+├── .prettierignore             # Files to ignore prettier triggers from.
+├── .prettierrc                 # Rules used in tandem with auto lint to ensure prettier tabs when developing.
+├── nuxt.config.js              # Nuxt configurations.
+├── package.json                # Core dependencies, scripts, and project details.
+├── postcss.webpack.config.js   # Postcss configurations.
+├── tailwind.config.js          # Tailwind configurations.
