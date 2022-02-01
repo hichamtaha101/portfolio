@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # --------------------------------------------------------------------------------------------
-# [Hicham Taha] build.sh
-#				Build nuxt website into the dist/ folder.
+# [Hicham Taha] pre_build.sh
+#				Install packages.
 # --------------------------------------------------------------------------------------------
 
-echo "entered build phase..."
-yarn generate
+echo "entered pre build phase..."
+yarn install

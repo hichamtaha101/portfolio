@@ -8,8 +8,7 @@ phases:
     pre_build:
         on-failure: ABORT
         commands:
-            - echo "pre build phase test"
-            - yarn install
+            - ./scripts/pipeline/pre_build.sh
     build:
         on-failure: ABORT
         commands:

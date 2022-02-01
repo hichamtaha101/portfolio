@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # --------------------------------------------------------------------------------------------
-# [Hicham Taha] init.sh
+# [Hicham Taha] install.sh
 #				Initialize CodeBuild instance.
 # --------------------------------------------------------------------------------------------
 
+echo "entered install phase..."
 apt-get update
 apt-get install -y zip
 
