@@ -13,7 +13,7 @@
         <div class="text-2xl font-bold">
           Hello,
         </div>
-        <p>I am a full-stack developer with experience in content management, inventory management, digital marketing, and cryptocurrency services. I am well versed in many modern web based frameworks, and am currently pursuing Vue, Nuxt, MongoDB, Node and AWS development. I am currently employed as a freelance developer for <a href="https://henesysgroup.com/" target="_blank">Henesys Group</a>.</p>
+        <p>I am a Full Stack Developer with experience in content management, inventory management, digital marketing, and cryptocurrency services. I am well versed in many modern web based frameworks, and am currently pursuing Vue, Nuxt, MongoDB, Node and AWS development. I am currently employed as a freelance developer for <a href="https://henesysgroup.com/" target="_blank">Henesys Group</a>.</p>
         <p>Additionally, I graduated with a Bachelors in Information Technology at Kwantlen Polytechnic University, specializing in Web and Mobile Application Development.</p>
         <p>I've got a keen interest for upcoming innovations and am constantly researching new technologies to improve my development skill set.</p>
         <div class="body-social-icons pt-3 flex flex-wrap gap-2">

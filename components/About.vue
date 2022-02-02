@@ -34,7 +34,7 @@
             	I am a post-graduate from Kwantlen Polytechnic University with a Bachelor's in Information and Technology. The program I attended covered general computer hardware and software concepts, business statistics, and technology in web development and networking. I specialized in web and mobile application development with a GPA of 3.5.
             </p>
             <p>
-              	Currently, I work at <a href="https://henesysgroup.com/" target="_blank">Henesys Group</a> as a freelance developer. Regarding the work environment, I am self-driven and engaging towards back-end oriented projects. My preferred development stack include MongoDB, Express, Node, Vue / Nuxt, and AWS services for infrastructure/deployment support.
+              	Currently, I work at <a href="https://henesysgroup.com/" target="_blank">Henesys Group</a> as a freelance developer. Regarding the work environment, I am self-driven and engaging towards back-end oriented projects. My preferred development stack include MongoDB, Express, Node, Vue / Nuxt, and Amazon Web Services for infrastructure/deployment support.
             </p>
           </div>
         </div>

@@ -31,11 +31,11 @@ module.exports = [
 		id: "bittreo",
 		title: "Bittreo",
 		timeline: "Jan, 2018 - Dec, 2021",
-		description: "Private cryptocurrency platform for Vancouver based company, Bittreo.",
+		description: "Private cryptocurrency exchange platform for a Vancouver based company, Bittreo Technologies Inc.",
 		slides: [
 			{
 				image: "bittreo/new/login.png",
-				html: "Bittreo is a Vancouver based over the counter buy & sell cryptocurrency platform. The platform is solely used by the owners, and employees of Bittreo to expedite their daily business operations. Additionally, services and data structure in the platform conform with Fintrac regulations and provide in-depth support for BI reporting. Main technology incorporated include Node, Express, MongoDB, Vue and AWS."
+				html: "Bittreo is a Vancouver based over-the-counter buy & sell cryptocurrency platform. The platform is solely used by the owners, and employees of Bittreo to expedite their daily business operations. Additionally, services and data structure in the platform conform with Fintrac regulations and provide in-depth support for BI reporting. Main technology incorporated include Node, Express, MongoDB, Vue and AWS."
 			},
 			{
 				image: "bittreo/2fa.jpg",
@@ -67,7 +67,7 @@ module.exports = [
 		slides: [
 			{
 				image: "henesys-erp/login.png",
-				html: "Henesys ERP is an enterprise software that was built to migrate and replace an existing legacy system built on MS-DOS. The platform was built using Node, Express, MongoDB, and AWS.",
+				html: "Henesys ERP is an enterprise software that was built to migrate and replace an existing legacy system built on MS-DOS. The platform was built using Node, Express, MongoDB, Vue, and AWS.",
 			},
 			{
 				image: "henesys-erp/orders.png",
