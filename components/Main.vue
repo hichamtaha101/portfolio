@@ -1,38 +1,35 @@
 <template>
-  <div
-    id="home"
-    class="body-slider profile-section"
-  >
-    <div class="wrapper ">
-      <div
-        class="body-introduction"
-        data-aos-once="true"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-      >
-        <div class="text-2xl font-bold">
-          Hello,
-        </div>
-        <p>I am a Full Stack Developer with experience in content management, inventory management, digital marketing, and cryptocurrency services. I am well versed in many modern web based frameworks, and am currently pursuing Vue, Nuxt, MongoDB, Node and AWS development. I am currently employed as a freelance developer for <a href="https://henesysgroup.com/" target="_blank">Henesys Group</a>.</p>
-        <p>Additionally, I graduated with a Bachelors in Information Technology at Kwantlen Polytechnic University, specializing in Web and Mobile Application Development.</p>
-        <p>I've got a keen interest for upcoming innovations and am constantly researching new technologies to improve my development skill set.</p>
-        <div class="body-social-icons pt-3 flex flex-wrap gap-2">
-          <a
-            href="https://ca.linkedin.com/in/hichamakirataha"
-            target="_blank"
-          ><i
-            class="fa fa-linkedin"
-          /></a>
-		  <a
-            href="https://github.com/hichamtaha101"
-            target="_blank"
-          ><i
-            class="fa fa-github"
-          /></a>
-          <a href="mailto:hichamtaha101@gmail.com"><i class="fa fa-envelope" /></a>
-        </div>
-      </div>
-    </div>
+  <div class="body-slider profile-section">
+	  <div class="wrapper">
+		<div
+			class="body-introduction sm:pt-20"
+			data-aos-once="true"
+			data-aos="fade-right"
+			data-aos-duration="1000"
+		>
+			<div class="text-2xl font-bold pt-4">
+			Hello,
+			</div>
+			<p>I am a Full Stack Developer with experience in content management, inventory management, digital marketing, and cryptocurrency services. I am well versed in many modern web based frameworks, and am currently pursuing Vue, Nuxt, MongoDB, Node and AWS development. I am currently employed as a freelance developer for <a href="https://henesysgroup.com/" target="_blank">Henesys Group</a>.</p>
+			<p>Additionally, I graduated with a Bachelors in Information Technology at Kwantlen Polytechnic University, specializing in Web and Mobile Application Development.</p>
+			<p>I've got a keen interest for upcoming innovations and am constantly researching new technologies to improve my development skill set.</p>
+			<div class="body-social-icons pt-3 flex flex-wrap gap-2">
+			<a
+				href="https://ca.linkedin.com/in/hichamakirataha"
+				target="_blank"
+			><i
+				class="fa fa-linkedin"
+			/></a>
+			<a
+				href="https://github.com/hichamtaha101"
+				target="_blank"
+			><i
+				class="fa fa-github"
+			/></a>
+			<a href="mailto:hichamtaha101@gmail.com"><i class="fa fa-envelope" /></a>
+			</div>
+		</div>
+	  </div>
   </div>
 </template>
 
@@ -44,19 +41,15 @@
 	background-size: cover;
 	background-position: center bottom;
 	position: relative;
-	padding: 15px;
+	padding-top: 85px;
 }
 
 .body-introduction {
-	@add-mixin vertical-align absolute;
 	text-align: left;
-	top: 25%;
-
 	p {
 		margin-top: 10px;
 		max-width: 600px;
 	}
-
 	.body-social-icons {
 		a {
 			color: var(--main-color);
@@ -74,10 +67,6 @@
 
 			@add-mixin left-to-right-hover;
 		}
-
-		a:first-child {
-			padding: 10px 15px;
-		}
 	}
 }
 @media screen and (max-width: 992px) {
@@ -87,14 +76,12 @@
 		background-repeat: none;
 	}
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
 	.body-introduction {
 		top: 0%;
 		position: relative;
 		transform: translateY(0px);
-		padding: 30px 15px;
 	}
-
 	.body-introduction {
 		.body-social-icons {
 			a {

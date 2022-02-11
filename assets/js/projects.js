@@ -61,9 +61,9 @@ module.exports = [
 	},
 	{
 		id: "erp",
-		title: "Enterprise Resource Planning",
+		title: "Henesys Group",
 		timeline: "Jan, 2019 - Present",
-		description: "Private ERP for a Wholesaler.",
+		description: "Private ERP solution for a Wholesaler client.",
 		slides: [
 			{
 				image: "henesys-erp/login.png",

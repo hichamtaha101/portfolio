@@ -49,6 +49,10 @@ h6,
 	}
 }
 
+.v-application--wrap {
+	background: url("~assets/images/body-background.jpg");
+}
+
 .wrapper {
 	max-width: 1360px;
 	padding: 0px 15px;

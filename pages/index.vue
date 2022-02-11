@@ -12,7 +12,7 @@ import AppMain from '~/components/Main.vue';
 import AppAbout from '~/components/About.vue';
 import AppProjects from '~/components/Projects.vue';
 import AppSkills from '~/components/Skills.vue';
-import AppContact from '~/components/Contact.vue';
+// import AppContact from '~/components/Contact.vue';
 import { mapGetters } from 'vuex';
 
 export default {
