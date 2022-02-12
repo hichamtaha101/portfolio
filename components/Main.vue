@@ -1,5 +1,5 @@
 <template>
-  <div class="body-slider profile-section" id="#home">
+  <div class="body-slider profile-section" id="home">
 	  <div class="wrapper">
 		<div
 			class="body-introduction sm:pt-20"
